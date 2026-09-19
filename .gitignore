@@ -3,3 +3,14 @@ __pycache__/
 *.pyc
 .env
 .history/
+
+# Local test files
+*.png
+*.jpg
+*.jpeg
+
+# YOLO model
+*.pt
+
+# Local test script
+yolo_test.py
