@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.git/
+.env
+.pytest_cache/
+*.pyc
+.history/
+*.pt
+/test_room*.jpg
+/test_room*.jpeg
+/Screenshot *.png
+/pexels-*.jpg

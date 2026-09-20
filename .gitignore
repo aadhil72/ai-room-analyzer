@@ -1,16 +1,22 @@
+# Python and editor files
 .venv/
 __pycache__/
-*.pyc
-.env
+.pytest_cache/
+*.py[cod]
 .history/
 
-# Local test files
-*.png
-*.jpg
-*.jpeg
-
-# YOLO model
+# Local configuration and downloaded model weights
+.env
 *.pt
 
-# Local test script
-yolo_test.py
+# Disposable local samples and scratch scripts
+/test_room*.jpg
+/test_room*.jpeg
+/yolo_test.py
+/Screenshot *.png
+/pexels-*.jpg
+
+# The catalog below is an application asset, not a local test image.
+!/furniture_images/
+!/furniture_images/*.jpg
+!/furniture_images/*.jpeg
